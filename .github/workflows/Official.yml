@@ -27,13 +27,15 @@ on:
       CONFIG_FILE:
         description: '请选择配置文件'
         required: true
-        default: 'x86_64'
+        default: 'acrh17'
         type: choice
         options:
           - '1907-phicomm-k3'
           - 'aarch64'
           - 'phicomm_k3'
           - 'x86_64'
+          - 'acrh17'
+          
       CPU_SELECTION:
         description: 'CPU优选,增加编译速度'
         required: true
